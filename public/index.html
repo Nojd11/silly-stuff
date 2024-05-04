@@ -1,5 +1,4 @@
-#document
-  <!DOCTYPE html>
+ <!DOCTYPE html>
   <html lang="en" dir="ltr">
       <head>
           <meta charset="utf-8">
@@ -7,44 +6,16 @@
           <script src="/socket.io/socket.io.js"></script>
           <script src="app.js" charset="utf-8"></script>
           <script src="DragDropTouch.js"></script>
-          <style>body {
-            background-color: #000;
-          }
-          
-          .eyes {
-            width: 100%;
-            height: 200px;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            flex-direction: row;
-            column-gap: 20px;
-          }
-          
-          .eye {
-            width: 85px;
-            height: 70px;
-            border-radius: 100%;
-            background-color: #fff;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-          }
-          
-          .pupil {
-            width: 40px;
-            height: 40px;
-            border-radius: 101px;
-            background-color: #000;
-          }
-          </style>
+          <link rel="stylesheet" href="style.css">
         </head>
-        <div class="eyes">
-          <div class="eye">
-            <div class="pupil"></div>
-          </div>
-          <div class="eye">
-            <div class="pupil"></div>
+        <body>
+          <div class="eyes">
+            <div class="eye">
+              <div class="pupil"></div>
+            </div>
+            <div class="eye">
+              <div class="pupil"></div>
+            </div>
           </div>
         </div>
         
@@ -61,4 +32,6 @@
               </script>
           </div>
         </div>
+        <img src="/images/berger.png" class="splash-background-image">
+      </body>
   </html>
