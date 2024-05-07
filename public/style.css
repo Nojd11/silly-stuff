@@ -21,6 +21,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+  opacity: 1;
 }
 
 .pupil {
@@ -28,6 +29,7 @@ body {
   height: 40px;
   border-radius: 101px;
   background-color: #000;
+  opacity: 1;
 }
 
 .splash-background-image {
